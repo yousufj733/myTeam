@@ -7,6 +7,7 @@
     .container
     {
         width: 90%;
+        padding: 0;
     }
     .team img 
     {
@@ -47,4 +48,17 @@ footer p{
     margin-bottom:15px;
     
     }
+    .team:nth-child(4)
+    {
+        padding-top: 5rem;
+    }
+    .team:nth-child(5)
+    {
+        padding: 0;
+    }
+    .team:nth-child(6)
+    {
+        padding-top: 5rem;
+    }
+
 }

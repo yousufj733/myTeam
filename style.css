@@ -7,22 +7,32 @@
     text-decoration: none;
     list-style: none;
 }
-section
+
+
+body
 {
-    padding: 2rem 0;
+   background: #ffffff;
+   font-family: 'Poppins';
+   font-family: 'PT Serif';
 }
+
 .container 
 {
     width: 1197px;
     margin: 0 auto;
+    padding-left:  5rem;
 }
-
+section
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .head__container
 {
     display: flex;
-   align-items: center;
+  
    gap: 20rem;
- 
+   padding-top: 5rem ;
 }
 
 .description
@@ -43,46 +53,47 @@ letter-spacing: -0.045em;
 color: #000000;
 }
 
-.head__container h5
+.description h5
 {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
 }
 
-.head__container p
+.description p
 {
    width: 439px;
    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #000000;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
 }
 .team__container
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
    
+   
 }
-
-.gap {
+.team:nth-child(2),.team:nth-child(5)
+{
     padding-top: 5rem;
 }
+
 .team
 {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+   
 }
 
 .team img 
@@ -103,8 +114,9 @@ color: #000000;
 
     width: 100%;
     position: absolute;
-    top: 60%;
-    left: 15%;font-family: 'PT Serif';
+    top: 55%;
+    left: 18%;
+    font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
